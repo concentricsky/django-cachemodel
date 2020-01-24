@@ -7,6 +7,10 @@ setup(
     name='django-cachemodel',
     version=".".join(map(str, VERSION)),
     packages = find_packages(),
+    install_requires = [
+        'django',
+        'six',
+    ],
 
     author = 'Concentric Sky',
     author_email = 'django@concentricsky.com',
